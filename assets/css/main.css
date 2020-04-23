@@ -1,0 +1,136 @@
+.nav-color {
+    width: 100%;
+    height: 15px;
+    background: #D22647 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.navbar {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 0px 0px 50px 50px;
+    opacity: 1;
+}
+
+.nav-item {
+    margin-left: 50px;
+}
+
+.navbar-nav {
+    margin-top: 25px;
+    width: 100%;
+    justify-content: center;
+    top: 91px;
+    left: 172px;
+}
+
+.nav-link {
+    text-align: center;
+    font: Regular 40px/48px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #707070B1;
+}
+
+.main-banner__title {
+    text-align: center;
+    font: Thin 45px/52px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #D22647;
+    text-transform: uppercase;
+}
+
+.main-banner__subtitle {
+    text-align: center;
+    font: Regular 110px/52px Autery;
+    letter-spacing: 0px;
+    color: #D22647;
+}
+
+.main-banner__img {
+    margin-top: -100px;
+}
+
+.main-banner__img img {
+    width: 100%;
+    height: 100vh;
+}
+
+.main-product-destacado {
+    width: 100%;
+    height: 100vh;
+    background: transparent url('../img/564444-PL47KW-415-min.png') 0% 0% no-repeat padding-box;
+}
+
+.main-about {
+    width: 100%;
+    height: 50vh;
+    background: transparent url('../img/Imagen\ 1.png') 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+}
+
+.main-about-title {
+    padding-top: 8%;
+    text-align: center;
+    font: Bold Italic 45px/45px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #00000047;
+    opacity: 1;
+}
+
+.main-news {
+    width: 100%;
+    height: 75vh;
+}
+
+.main-news-title {
+    text-align: center;
+    font: Thin 45px/93px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #D22647;
+    text-transform: uppercase;
+    opacity: 1;
+    width: 180px;
+    padding-top: 58px;
+}
+
+.line {
+    border: 2px solid #DBDBDB;
+    opacity: 1;
+}
+
+.main-vendidos {
+    width: 100%;
+    height: 75vh;
+}
+
+.main-vendidos-title {
+    text-align: center;
+    font: Thin 45px/93px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #D22647;
+    text-transform: uppercase;
+    opacity: 1;
+    width: 180px;
+    padding-top: 58px;
+}
+
+.main-clientes__img {
+    width: 100%;
+    height: 100vh;
+    background: transparent url('../img/564444-PL47KW-415-min.png') 0% 0% no-repeat padding-box;
+}
+
+.main-clientes__title {
+    padding-top: 55px;
+    text-align: center;
+    font: Thin 45px/45px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #D22647;
+}
+
+.main-clientes__subtitle {
+    text-align: center;
+    font: Regular 90px/45px Autery;
+    letter-spacing: 0px;
+    color: #D22647;
+}
