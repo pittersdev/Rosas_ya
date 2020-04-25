@@ -54,10 +54,117 @@
     height: 100vh;
 }
 
+.main-service {
+    gap: 2rem;
+    padding: 0px 6rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.service-sect {
+    margin-top: -55px;
+    margin-bottom: -55px;
+}
+
+.main-service {
+    display: grid;
+}
+
+.main-service__img {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.main-service__img img {
+    width: 70%;
+    height: 105px;
+}
+
+.main-service__item {
+    display: flex;
+    background: #D22647 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 12px #C1BBBB;
+    border-radius: 20px;
+}
+
+.main-service__item2 {
+    display: flex;
+    background: #8B962F 0% 0% no-repeat padding-box;
+    box-shadow: 6px 6px 12px #C1BBBB;
+    border-radius: 20px;
+}
+
+.main-service__content {
+    padding-top: 20px;
+    text-align: center;
+    font-family: Regular;
+    font-size: 25px;
+    font-weight: Helvetica Neue;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.main-product-grid {
+    gap: 1rem;
+    padding: 0px 3rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.main-product-grid {
+    display: grid;
+}
+
+.main-product__item {
+    justify-content: center;
+    text-align: center;
+}
+
 .main-product-destacado {
     width: 100%;
     height: 100vh;
     background: transparent url('../img/564444-PL47KW-415-min.png') 0% 0% no-repeat padding-box;
+}
+
+.main-product__img img {
+    box-shadow: 3px 3px 8px #00000036;
+    width: 95%;
+    height: 40vh;
+}
+
+.main-product__text {
+    padding-top: 90px;
+    padding-bottom: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.main-product__title {
+    text-align: center;
+    font-family: Thin;
+    font-size: 20px;
+    font-weight: Helvetica Neue;
+    letter-spacing: 0px;
+    color: #D22647;
+    text-transform: uppercase;
+}
+
+.main-product__content {
+    padding-top: 10px;
+    text-align: center;
+    color: #7C7C7C;
+}
+
+.main-product__content p {
+    margin: 0;
+}
+
+.main-product__subtitle {
+    text-align: center;
+    font-family: Autery;
+    font-size: 25px;
+    font-weight: Regular;
+    letter-spacing: 0px;
+    color: #D22647;
 }
 
 .main-about {
@@ -82,6 +189,11 @@
     height: 75vh;
 }
 
+.main-news__item {
+    justify-content: center;
+    text-align: center;
+}
+
 .main-news-title {
     text-align: center;
     font: Thin 45px/93px Helvetica Neue;
@@ -91,6 +203,11 @@
     opacity: 1;
     width: 180px;
     padding-top: 58px;
+}
+
+.line1 {
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .line {
@@ -116,21 +233,200 @@
 
 .main-clientes__img {
     width: 100%;
-    height: 100vh;
+    height: 156vh;
     background: transparent url('../img/564444-PL47KW-415-min.png') 0% 0% no-repeat padding-box;
 }
 
 .main-clientes__title {
     padding-top: 55px;
     text-align: center;
-    font: Thin 45px/45px Helvetica Neue;
+    font-family: Thin;
+    font-size: 30px;
+    font-weight: Neue;
     letter-spacing: 0px;
     color: #D22647;
 }
 
 .main-clientes__subtitle {
     text-align: center;
-    font: Regular 90px/45px Autery;
+    font-family: Autery;
+    font-size: 35px;
+    font-weight: Regular;
     letter-spacing: 0px;
     color: #D22647;
+}
+
+.testimonial {
+    padding-top: 20px;
+    max-width: 800px;
+    margin: 0 auto !important;
+    letter-spacing: 0px;
+    color: #7C7C7C;
+}
+
+.text-content {
+    text-align: center;
+    font-family: Medium Italic;
+    font-size: 25px;
+    font-weight: Helvetica Neue;
+    letter-spacing: 0px;
+    color: #686868;
+}
+
+.text-black {
+    text-align: center;
+    font-family: Light;
+    font-size: 20px;
+    font-weight: Helvetica Neue;
+    letter-spacing: 0px;
+    color: #7C7C7C;
+}
+
+.main-descripcion {
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 45%;
+    height: 110px;
+    position: absolute;
+}
+
+.contact-formulario {
+    padding-top: 190px;
+}
+
+.container-grid {
+    letter-spacing: NaNpx;
+    color: #D22647;
+    opacity: 1;
+}
+
+.contact-form {
+    width: 60%;
+    margin-left: auto;
+    padding: 6rem 4rem 5rem 8rem;
+    background: #FFFFFF 0% 0%;
+    box-shadow: -5px -5px 15px #00000029;
+    border-radius: 50px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-contact__title {
+    text-align: center;
+    font-family: Thin;
+    font-size: 25px;
+    font-weight: Helvetica Neue;
+    color: #D22647;
+    text-transform: uppercase;
+}
+
+.main-contact__subtitle {
+    text-align: center;
+    font-family: Regular;
+    font-size: 50px;
+    font-weight: Allessa Script Free Sample;
+    color: #D22647;
+}
+
+.form-group {
+    width: 500px;
+}
+
+.form-group input ::placeholder {
+    color: #D22647!important;
+}
+
+.enviar {
+    box-shadow: 5px 5px 5px #00000030;
+    border: 0;
+    border-radius: 12px;
+    background: #D22647 0% 0% no-repeat;
+    color: white;
+    width: 150px;
+    font-family: Bold;
+    font-size: 20px;
+    font-weight: Helvetica Neue;
+}
+
+.main-footer {
+    width: 100%;
+    height: 40vh;
+    margin-top: 0px;
+    background: #D22647 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+}
+
+.form-row {
+    margin-top: 35px;
+}
+
+.container-footer-grid {
+    margin-top: 90px;
+    display: grid;
+    gap: 1rem;
+    padding: 0px 3rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.site-map {
+    list-style: none;
+}
+
+.item a {
+    line-height: 35px;
+    font-family: Avenir-Medium;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.main-news-grid {
+    /* display: grid; */
+    gap: 1rem;
+    padding: 20px 7rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.main-news__img img {
+    width: 250px;
+    height: 250px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 3px 3px 8px #0000004D;
+}
+
+.main-news__content {
+    padding-top: 20px;
+    text-align: left;
+    letter-spacing: NaNpx;
+    color: #7C7C7C;
+}
+
+.btn {
+    padding-top: 0px;
+    background: #D22647 0% 0% no-repeat;
+    border-radius: 22px;
+    color: white;
+    height: 33px;
+    width: 120px;
+    font-family: Bold;
+    font-size: 20px;
+    font-weight: Helvetica Neue;
+}
+
+.main-news__content p {
+    margin: 0;
+}
+
+.price {
+    font-family: Medium;
+    font-size: 23px;
+    font-weight: Helvetica Neue;
+    color: #7C7C7C;
+}
+
+.news-text {
+    font-family: Bold;
+    font-size: 20px;
+    font-weight: Helvetica Neue;
+    color: #7C7C7C;
 }
